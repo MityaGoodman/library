@@ -28,10 +28,16 @@ void fio();
 int chislo(int a);
 int ft_max_num(int value);
 int ft_min_num(int value);
+int ft_rev_num(int value);
 int ft_null_count(int value);
 bool ft_mirror_num(int value);
 int ft_mirror_count(int value);
 int ft_second_max(int value);
 int ft_second_simple_max_num(int value);
-
+int ft_bin_num(int value);
+int ft_oct_num(int value);
+int ft_rev_bin_num(int bin);
+int ft_rev_oct_num(int oct);
+int ft_covert_num(int value, int sys);
+int ft_rev_covert_num(int num, int sys);
 #endif // MID_F_H_INCLUDED

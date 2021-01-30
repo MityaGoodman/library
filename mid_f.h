@@ -40,4 +40,18 @@ int ft_rev_bin_num(int bin);
 int ft_rev_oct_num(int oct);
 int ft_covert_num(int value, int sys);
 int ft_rev_covert_num(int num, int sys);
+// str_easy
+string ft_hello_str(string name);
+int ft_len(string str);
+void ft_print_copy_str(string str,int number);
+void ft_first_end_three(string str);
+int ft_count_char_in_str(char ch,string str);
+string ft_even_place(string str);
+double ft_percent_lower_uppercase(string str);
+string ft_reverse_str(string str);
+string ft_slice_str(string str, int start, int end);
+bool ft_equal_reverse(string str);
+string ft_cmp_str(string str1,string str2,int num);
+int ft_find_str(string str1,string str2);
+int ft_max_char_on_end(string str);
 #endif // MID_F_H_INCLUDED
